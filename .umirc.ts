@@ -6,4 +6,8 @@ export default defineConfig({
   },
   routes: [{ path: '/', component: '@/pages/index' }],
   fastRefresh: {},
+  locale: {
+    default: 'zh-CN',
+    antd: true,
+  },
 });

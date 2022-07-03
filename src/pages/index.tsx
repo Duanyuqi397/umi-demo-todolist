@@ -1,9 +1,11 @@
 import styles from './index.less';
+import { ProLayout } from '@ant-design/pro-layout';
+import { TodoList } from './todoList';
 
 export default function IndexPage() {
   return (
-    <div>
-      <h1 className={styles.title}>Page index</h1>
-    </div>
+    <ProLayout>
+      <TodoList />
+    </ProLayout>
   );
 }
